@@ -2,7 +2,7 @@ function EPG_wrapper_step1(out_path,TSE_path,TE_path,mask_path)
 %%
 % This code estimates T2 and B1 from the TSE signal via Extended Phase Graphs (EPG)
 
-%Details of this fitting approach are described in the manuscript:
+%Details of this fitting approach are described in the publication:
 %A method to remove the influence of fixative concentration on post-mortem T2 maps using a Kinetic Tensor model
 
 % The fitting code is based on the depiction and discussion of Extended
