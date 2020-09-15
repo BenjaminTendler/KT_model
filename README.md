@@ -1,6 +1,8 @@
 # Fixative modelling & EPG fitting
-This respository contains the code associated with the manuscript titled:\
+This respository contains the code associated with the manuscript:\
 *A method to remove the influence of fixative concentration on post-mortem T2 maps using a Kinetic Tensor model*
+
+Written by Benjamin Tendler - benjamin.tendler@ndcn.ox.ac.uk
 
 Code is as follows:
 
