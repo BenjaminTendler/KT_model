@@ -3,7 +3,7 @@ function EPG_wrapper_step2(out_path,TSE_path,TE_path,mask_path,B1_path,med_path)
 % This code estimates T2 from the TSE signal via Extended Phase Graphs (EPG),
 % with regularisation on T2 using the median T2 estimate across the sample from step 1
 
-%Details of this fitting approach are described in the manuscript:
+%Details of this fitting approach are described in the publication:
 %A method to remove the influence of fixative concentration on post-mortem T2 maps using a Kinetic Tensor model
 
 % The fitting code is based on the depiction and discussion of Extended
