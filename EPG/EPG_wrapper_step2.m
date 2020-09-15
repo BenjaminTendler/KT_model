@@ -12,8 +12,9 @@ function EPG_wrapper_step2(out_path,TSE_path,TE_path,mask_path,B1_path,med_path)
 % Weigel M. J Magn Reson Imaging 2015; 41: 266-295. DOI: 10.1002/jmri.24619
 % "Extended Phase Graphs: Dephasing, RF Pulses, and Echoes - Pure and Simple"  
 
-% The original EPG modelling code (which this fitting is based on) was 
-% written by Matthias Weigel and can be obtained by contacting Matthias at epg@matthias-weigel.net 
+% The EPG fitting function is based on the "cp_cpmg_epg_domain_fplus_fminus" 
+% MATLAB function written by Matthias Weigel as part of his EPG software, 
+% which can be obtained by contacting Matthias at epg@matthias-weigel.net 
 
 % Wrapper script & modifications to perform fitting written by Benjamin Tendler 
 % Contact benjamin.tendler@ndcn.ox.ac.uk
