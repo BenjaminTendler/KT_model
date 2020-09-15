@@ -4,14 +4,15 @@ function [ir] = EPG_fitting_step1(x,inp,TEs,ret)
 
 % Run from the EPG_wrapper_step1.m wrapper script
 
+% This code is based on the "cp_cpmg_epg_domain_fplus_fminus" MATLAB
+% function written by Matthias Weigel as part of his EPG software, which 
+% can be obtained by contacting Matthias at epg@matthias-weigel.net 
+
 % This code is based on the depiction and discussion of Extended
 % Phase Graphs in the following publication:
 % 
 % Weigel M. J Magn Reson Imaging 2015; 41: 266-295. DOI: 10.1002/jmri.24619
 % "Extended Phase Graphs: Dephasing, RF Pulses, and Echoes - Pure and Simple"  
-
-% The original EPG modelling code (which this function is based on) was 
-% written by Matthias Weigel and can be obtained by contacting Matthias at epg@matthias-weigel.net 
 
 % Original header for the code written by Matthias is provided at end of this function
 %%
