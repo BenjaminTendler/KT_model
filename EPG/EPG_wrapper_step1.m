@@ -68,11 +68,11 @@ for m=1:size(TSE,3)
                 %Normalise data (to avoid fitting for S0)
                 data_norm=data./(sum(data(:).^2)).^0.5; data_norm(isnan(data_norm))=0; data_norm(data_norm==inf)=0; data_norm(data_norm==-inf)=0;
                 %Define fitting function
-                f=@(x)EPG_fitting_T2_B1(x,data_norm,TEs,0);
+                f=@(x)EPG_fitting_step1(x,data_norm,TEs,0);
                 %Perform fitting
                 [fit_out,fval(k,l,m),residual,exitflag(k,l,m),~,~,J]=lsqnonlin(f,[50,0.9],[0,0],[inf,1],options);
                 %Reconstruct TSE signal from fit parameters - multiply by normalised signal to be of same order as original data
-                TSE_recon(k,l,m,:)=EPG_fitting_T2_B1(fit_out,data_norm,TEs,1).*(sum(data(:).^2)).^0.5;
+                TSE_recon(k,l,m,:)=EPG_fitting_step1(fit_out,data_norm,TEs,1).*(sum(data(:).^2)).^0.5;
                 %Pass fitting estimates to output arrays
                 T2(k,l,m)=fit_out(1);
                 B1(k,l,m)=fit_out(2);
