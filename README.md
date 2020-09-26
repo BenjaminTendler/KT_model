@@ -4,6 +4,8 @@ This respository contains the code associated with the publication:\
 
 Any questions please contact benjamin.tendler@ndcn.ox.ac.uk
 
+Code provided here as follows:
+
 **FixativeModelling.m**\
 Code to perform KI and KT modelling as described in the publication.
 
