@@ -14,9 +14,5 @@ Folder contains code for step one and step two of the EPG fitting as described i
 
 EPG fitting is initialised using the wrapper scripts *EPG_wrapper_step1.m* and *EPG_wrapper_step2.m*
 
-The EPG fitting is based on the "*cp_cpmg_epg_domain_fplus_fminus.m*" MATLAB function written by Matthias Weigel as part of his EPG software, associated with the  publication:
-
-Weigel, Matthias. "*Extended phase graphs: dephasing, RF pulses, and echoes‐pure and simple.*" Journal of Magnetic Resonance Imaging 41.2 (2015): 266-295.
-
-EPG software written by Matthias can be obtained by contacting Matthias at epg@matthias-weigel.net
+The EPG fitting is based on the "*cp_cpmg_epg_domain_fplus_fminus.m*" MATLAB function written by Matthias Weigel, available at https://github.com/matthias-weigel/EPG.
 
