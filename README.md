@@ -1,6 +1,6 @@
 # Fixative modelling & EPG fitting
 This respository contains the code associated with the publication:\
-*Tendler, Benjamin C., et al. "A method to remove the influence of fixative concentration on post-mortem T2 maps using a Kinetic Tensor model." bioRxiv (2020). https://doi.org/10.1101/2020.09.16.299784*
+*Tendler, Benjamin C., et al. "A method to remove the influence of fixative concentration on postmortem T2 maps using a kinetic tensor model." Human Brain Mapping (2021).  https://doi.org/10.1002/hbm.25661*
 
 Any questions please contact benjamin.tendler@ndcn.ox.ac.uk
 
