@@ -33,7 +33,7 @@ function EPG_wrapper_step2(out_path,TSE_path,TE_path,mask_path,B1_path,med_path)
 
 % out_path      Output path where estimates will be saved
 % TSE_path      Path to 4D TSE data, where each image corresponds to a different TE
-% TE_path       Path to text file containing echo times in ms. NB the EPG model will used the difference between the first two echoes as the effective echo spacing
+% TE_path       Path to text file containing echo times in s. NB the EPG model will used the difference between the first two echoes as the effective echo spacing
 % mask_path     Path to mask of data (region where fitting will be performed)
 % B1_path       Path to B1 map (from step 1)
 % med_path      Path to text file containing median T2 value over dataset
